@@ -1,0 +1,74 @@
+Enter numbers in the queue (0 to stop): 
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit
+Enter the element you want to add: 
+The element is added.
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit
+Number of elements: 7
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit
+Inserted 1 before all negative elements.
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit
+Number of elements: 9
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit
+Enter element to count
+Amount of entered element: 3
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit
+The queue is cleared.
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit
+Number of elements: 0
+1. Add an element
+2. Delete element
+3. Count number of elements
+4. Insert 1 before negative elements
+5. Delete negative elements
+6. Count number of entries
+7. Clear
+8. Exit

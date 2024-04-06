@@ -29,6 +29,7 @@ private:
 	Node* head;
 	int size;
 
+	void clearHelper(Node* node);
 };
 Queue::Queue()
 {
@@ -41,17 +42,21 @@ Queue::~Queue()
 	clear();
 }
 
+void Queue::clearHelper(Node* node)
+{
+	if (node == nullptr)
+	{
+		return;
+	}
+	clearHelper(node->next);
+	delete node;
+}
+
 void Queue::clear()
 {
-	while (head != nullptr)
-	{
-		Node* temp = head;
-		head = head->next;
-		delete temp;
-		size--;
-	}
-	tail = nullptr;
-
+	clearHelper(head);
+	head = tail = nullptr;
+	size = 0;
 }
 
 bool Queue::is_empty() const
